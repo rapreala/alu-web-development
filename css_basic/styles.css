@@ -1,21 +1,38 @@
 body {
     display: flex;
     flex-direction: column;
-  }
-  
-  main {
+    /* Add a background color */
+    background-color: #F9F9F9;
+}
+
+main {
     display: flex;
     flex-direction: row;
     flex: auto;
-  }
-  
-  article {
+}
+
+article {
     flex: 2;
     overflow-y: auto;
-  }
-  
-  aside {
+    /* Add some padding and a background color */
+    padding: 20px;
+    background-color: #FFFFFF;
+    /* Add some custom styles for the text */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+aside {
     flex: 1;
     overflow-y: auto;
-  }
-  
+    /* Add some padding and a background color */
+    padding: 20px;
+    background-color: #F9F9F9;
+}
+
+/* Add a class for the logo */
+.logo {
+    /* Add some styling for the logo */
+    padding: 10px;
+    color: #F80002;
+}
